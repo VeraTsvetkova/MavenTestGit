@@ -1,0 +1,20 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>C:\data\MavenTest\44.m2/repository</localRepository>
+  <interactiveMode>true</interactiveMode>
+  <usePluginRegistry>true</usePluginRegistry>
+  <offline>false</offline>
+  
+  
+  <mirrors>
+    <mirror>
+     
+      <url>https://repo.maven.apache.org/maven2/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>>
+  
+  
+</settings>

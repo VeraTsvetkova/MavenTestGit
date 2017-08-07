@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jul 04 14:07:42 EEST 2017
+@default-central-http\://repo1.maven.org/maven2/.lastUpdated=1499166462335
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.freemarker\:freemarker-gae\:jar\:sources\:2.3.25-incubating from/to central (http\://repo1.maven.org/maven2)\: Connect to repo1.maven.org\:80 [repo1.maven.org/151.101.112.209] failed\: Connection timed out\: connect

@@ -1,0 +1,36 @@
+
+(stories/register.story)
+Scenario: Scenario#3: Dobaviane na Posrednik
+Examples:
+Given I am  on  Home Page<frontUrl>
+When I Get Egn
+Given I am  on  Generate EGN Page
+When I click on Vhod
+And I fill my  <username>, <password> and I click the submit btn
+When I click on Dobaviane na Slujitel
+And I fill Slujitel ili Posrednik data  <address>, <lk>, <date_lk>, <info> and I click SAVE btn
+
+|frontUrl|frontUrlt|username|password|address|lk|date_lk|info|
+|http://georgi.unixsol.org/programs/egn.php|http://external.euroins.bg/webinacsrelease/#/home|sm|blablaballs1|Sofia|123452222|31.05.2017|test info|
+
+
+
+Example: {frontUrl=http://georgi.unixsol.org/programs/egn.php, frontUrlt=http://external.euroins.bg/webinacsrelease/#/home, username=sm, password=blablaballs1, address=Sofia, lk=123452222, date_lk=31.05.2017, info=test info}
+Given I am  on  Home Pagehttp://georgi.unixsol.org/programs/egn.php
+When I Get Egn
+Given I am  on  Generate EGN Page
+When I click on Vhod
+And I fill my  sm, blablaballs1 and I click the submit btn
+When I click on Dobaviane na Slujitel (FAILED)
+(org.openqa.selenium.NoSuchElementException: Unable to locate element: #user\-upper\-menu\-toggle\-3
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ZHIVKO-PC', ip: '192.168.4.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ZHIVKO~1\AppData\Local\Temp\rust_mozprofile.f1dLZKVwvnCa, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=7676.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 1802b001-d1b7-49fa-8dbc-d794fbb48e11
+*** Element info: {Using=id, value=user-upper-menu-toggle-3})
+And I fill Slujitel ili Posrednik data  Sofia, 123452222, 31.05.2017, test info and I click SAVE btn (NOT PERFORMED)
+
+
+

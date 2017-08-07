@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jul 10 12:39:01 EEST 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1499679541774
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact commons-collections\:commons-collections\:pom\:4.4.1 from/to central (https\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:443 [repo.maven.apache.org/151.101.112.215] failed\: Connection timed out\: connect
